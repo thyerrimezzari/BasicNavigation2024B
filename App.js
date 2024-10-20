@@ -8,11 +8,6 @@ import { MoviesScreen } from "./screens/MoviesScreen";
 
 const Stack = createNativeStackNavigator();
 
-async function getMovies(){
-  const response = await fetch('http://www.omdbapi.com/?s=spider%20man&apikey=1cd66749');
-  console.log(response);
-}
-
 export default function App() {
 
   getMovies();
