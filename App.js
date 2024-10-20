@@ -10,8 +10,6 @@ const Stack = createNativeStackNavigator();
 
 export default function App() {
 
-  getMovies();
-
   return (
     <NavigationContainer>
       <Stack.Navigator initialRouteName="Home">
